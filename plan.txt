@@ -1,0 +1,59 @@
+GENERAL IDEAS:
+	have code displayed on screen
+	auto-typer or auto mouse movement program?
+	all software bits needs to be able to activate the next step, whether that be through the command line, or other means
+
+OPENINGS:
+	scan a qr code to go to a http request?
+	push a ball down a ramp, an omage to OG rube goldbergs
+	matt's cool switches
+
+MECHANICAL CHAIN:
+	mechanical hand? rolling ball?
+	button
+	LED
+	basic image recognition
+	twilio? (THE LIGHT IS ON)
+
+SOFTWARE CHAIN:
+	definitely need some kind of apps involved, ()
+	shell scripts
+	brainfuck
+	jsfuck
+	fetlang
+	befunge
+	whitespace
+	piet
+	lolcode
+	arnoldc
+	shakespeare
+	chef
+	chicken
+	ook
+	remorse
+	l33t
+	velato
+	omgrofl
+	malbolge
+	glass
+	///
+	~English
+	unlambda
+	pikachu
+	aciidots
+	matlab
+	r
+	owl
+	orhtogonal
+	and then some usual suspects:
+		go
+		python
+		javascript
+		
+	
+
+GOING FROM COMPUTER TO COMPUTER:
+	hardware chain connection?
+	
+ENDINGS:
+	hello world in a weird format or font comes up on all monitors
