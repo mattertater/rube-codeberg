@@ -1,4 +1,4 @@
-GENERAL IDEAS:
+ GENERAL IDEAS:
 	have code displayed on screen
 	auto-typer or auto mouse movement program?
 	all software bits needs to be able to activate the next step, whether that be through the command line, or other means
@@ -6,7 +6,6 @@ GENERAL IDEAS:
 	auto typer types out brainfuck or malbolge
 
 OPENINGS:
-	scan a qr code to go to a http request?
 	push a ball down a ramp, an homage to OG rube goldbergs
 	matt's cool switches
 
