@@ -65,11 +65,18 @@ ENDINGS:
 
 
 WHATS DONE SO FAR
-CAM:
+	ok google command
+	switch
 	arduino blinking leds
-
-MATT:
+	led color sensor
+	serial ping
 	read serial input with python
 	powershell
 	processing
 	piet
+	cmd
+	microsoft edge
+	blockchain
+	
+
+	
