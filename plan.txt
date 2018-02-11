@@ -77,6 +77,9 @@ WHATS DONE SO FAR
 	cmd
 	microsoft edge
 	blockchain
+	windows phone reload
+	camera color recognition
+	serial back to og python
+	calls with the number
 	
-
 	

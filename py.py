@@ -7,9 +7,9 @@ from flask import Flask
 from subprocess import Popen, PIPE
 
 # Your Account SID from twilio.com/console
-account_sid = "ACf29191e593b36f61191a0ae8b3c406e9"
+account_sid = "COUNT_SID"
 # Your Auth Token from twilio.com/console
-auth_token  = "4786efce33c6c6f6bf2a3b05a5e070c3"
+auth_token  = "TH_TOKEN"
 client = Client(account_sid, auth_token)
 
 ser = serial.Serial('COM8', 9600)
