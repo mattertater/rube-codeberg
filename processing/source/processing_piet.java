@@ -20,7 +20,7 @@ int a = 0;
 public void setup() {
   
   template = loadImage("template.png");
-  piet = createImage(13, 13, RGB);
+  piet = createImage(96, 96, RGB);
   template.loadPixels();
   piet.loadPixels();
   for (int i = 0; i < piet.pixels.length; i++) {
@@ -31,7 +31,7 @@ public void setup() {
 }
 
 public void draw() {
-  if (a < 169) {
+  if (a < 9216) {
     piet.pixels[a] = template.pixels[a];
     a++;
   }
@@ -40,12 +40,11 @@ public void draw() {
     delay(10000);
     exit();
   }
-    
+  
   piet.updatePixels();
   image(piet, 0, 0);
-  delay(25);
 }
-  public void settings() {  size(13, 13); }
+  public void settings() {  size(96, 96); }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "processing_piet" };
     if (passedArgs != null) {
