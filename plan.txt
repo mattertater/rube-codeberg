@@ -61,3 +61,14 @@ GOING FROM COMPUTER TO COMPUTER:
 	
 ENDINGS:
 	hello world in a weird format or font comes up on all monitors
+
+
+
+WHATS DONE SO FAR
+CAM:
+	arduino blinking leds
+
+MATT:
+	read serial input with python
+	powershell
+	
