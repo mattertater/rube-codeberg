@@ -7,9 +7,9 @@ from flask import Flask
 from subprocess import Popen, PIPE
 
 # Your Account SID from twilio.com/console
-account_sid = "COUNT_SID"
+account_sid = "ACf29191e593b36f61191a0ae8b3c406e9"
 # Your Auth Token from twilio.com/console
-auth_token  = "TH_TOKEN"
+auth_token  = "4786efce33c6c6f6bf2a3b05a5e070c3"
 client = Client(account_sid, auth_token)
 
 ser = serial.Serial('COM8', 9600)
@@ -30,7 +30,6 @@ while True:
     line = line.strip()
     line = line.replace('\\n','')
     if line is 'x' or 'y' or 'z':
-        print line
         if line is 'x':
             color = 'red'
         elif line is 'y':
