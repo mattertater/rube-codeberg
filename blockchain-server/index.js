@@ -80,12 +80,12 @@ app.get('/send', function(req, res) {
 app.get('/receive', function(req, res) {
 	//If there isn't a new transaction yet, just delay and refresh
 	if (!isNewTransaction) {
-		res.send('<html><meta http-equiv="refresh" content="20"/><h1>Nothing from the blockchain yet =(</h1></html>');
+		res.send('<html><meta http-equiv="refresh" content="5"/><h1>Nothing from the blockchain yet =(</h1></html>');
 	}
 	//WE GOT SOMETHIN
 	else {
 	isNewTransaction = false;
-	res.send('<html><h1 style="color:' + transaction.memo + ';">BINGO.  The color is ' + transaction.memo + '.</h1></html>')
+	res.send('<html><h1 style="color:' + transaction.memo + ';">BINGO.  The color is ' + transaction.memo + '.</h1><br><br><div style="width: 1000px; height: 1200px; background-color: ' + transaction.memo + ';"></div></html>')
 	}
 })
 
